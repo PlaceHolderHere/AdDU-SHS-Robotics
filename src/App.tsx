@@ -1,4 +1,5 @@
 import { Button } from "./Components/Button"
+import { Navbar } from "./Components/Navbar"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
             <Button text="Learn more->"></Button>
         </section>
 
+        <Navbar></Navbar>
         <section id="objectives" className="objectives">
             <h2>Hello</h2>
         </section>
