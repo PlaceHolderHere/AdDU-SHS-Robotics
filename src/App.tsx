@@ -1,6 +1,9 @@
+// Sections
 import Home from "./Sections/Home"
 import Objectives from "./Sections/Objectives"
-import { Navbar } from "./Components/Navbar"
+
+// Components
+import Navbar from "./Components/Navbar"
 
 function App() {
   return (

@@ -1,4 +1,3 @@
-import React from "react";
 import './Navbar.css';
 
 interface nav_links{
@@ -8,7 +7,7 @@ interface nav_links{
     objectives: string;
 }
 
-export const Navbar: React.FC<nav_links> = ({home, about, activities, objectives}) => {
+function Navbar ({home, about, activities, objectives} : nav_links) {
     return (
         <nav className="navbar">
             <a href={about}>About Us</a>
@@ -21,3 +20,5 @@ export const Navbar: React.FC<nav_links> = ({home, about, activities, objectives
         </nav>
     )
 }
+
+export default Navbar;
