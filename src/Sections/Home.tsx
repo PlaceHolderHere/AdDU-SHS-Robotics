@@ -8,6 +8,7 @@ function Home(){
                 className="home-logo" 
                 src="/comwiz-svg.svg" 
                 alt="Computer Wizards Logo"
+                id="nav-trigger"
             />
             <h1 className="home-title">Computer Wizards</h1>
             <Button text="Learn more->"/>
