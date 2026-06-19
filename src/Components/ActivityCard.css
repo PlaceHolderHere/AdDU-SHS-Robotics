@@ -1,0 +1,46 @@
+.activityCard{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 64px;
+    
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    color: black;
+    background-color: var(--bg-color-light-1);
+    border-radius: 32px;
+    margin: 32px 0;
+}
+
+/* Right Column */
+.text{
+    width: 100%;
+}
+
+.description{
+    margin-top: 16px;
+}
+
+/* Right Column > Small Info */
+.smallInfo{
+    display: flex;
+    gap: 32px;
+    margin: 8px;
+}
+
+.date, .location{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Left Column */
+.activityImage{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: clamp(200px, 80%, 800px);
+    border-radius: 32px;
+}

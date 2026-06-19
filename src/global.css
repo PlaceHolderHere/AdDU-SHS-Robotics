@@ -11,7 +11,9 @@
 :root{
     --primary-color: #5315D1;
     --secondary-color: #001E6B;
-    --bg-color: #F2F2F2;
+    --bg-color: #E5E5E5;
+    --bg-color-light-1: #F2F2F2; 
+    --bg-color-light-2: #FFFFFF; 
     --accent-color: #FFC044;
     --text-color: #000000;
 }
@@ -34,19 +36,23 @@ h2{
 }
 
 h3{
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: "Funnel Display", Helvetica, sans-serif;
     font-weight: 300;
     font-style: normal;
-    text-align: center;
 }
 
 p, a{
     font-size: 1.5rem;
     font-family: "Funnel Display", Helvetica, sans-serif;
     font-weight: normal;
-    color: #FFFFFF;
     text-decoration: none;
+}
+
+.small{
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: left;
 }
 
 a:hover{
