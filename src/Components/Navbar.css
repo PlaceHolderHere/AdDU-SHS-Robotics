@@ -10,6 +10,10 @@
     flex-direction: row-reverse;
 }
 
+a{
+    color: #FFFFFF;
+}
+
 .navbar-home{
     display:flex;
     align-items: center;
