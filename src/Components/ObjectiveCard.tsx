@@ -1,0 +1,25 @@
+import "./ObjectiveCard.css";
+
+interface objectiveProps{
+    title: string;
+    description: string;
+    imageURL: string;
+}
+
+function ObjectiveCard({title, description, imageURL} : objectiveProps){
+    return(
+        <div className="objectiveCard">
+            <img 
+                className="objectiveImg"
+                src={imageURL}
+                alt={title}>
+            </img>
+            <div className="objectiveText">
+                <h4 className="objectiveTitle">{title}</h4>
+                <p className="small">{description}</p>
+            </div>
+        </div>
+    )
+}
+
+export default ObjectiveCard;
