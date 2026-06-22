@@ -2,6 +2,7 @@
 import Home from "./Sections/Home"
 import Objectives from "./Sections/Objectives"
 import Activities from "./Sections/Activities"
+import AboutUs from "./Sections/AboutUs"
 
 // Components
 import Navbar from "./Components/Navbar"
@@ -19,6 +20,7 @@ function App() {
         </Navbar>
         <Home></Home>
         <Objectives></Objectives>
+        <AboutUs></AboutUs>
         <Activities></Activities>
         <Footer></Footer>
     </div>
