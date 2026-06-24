@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 32px;
+    padding: 32px clamp(8px, calc(5vw + 8px), 128px);
     gap: 8px;
 } 
 

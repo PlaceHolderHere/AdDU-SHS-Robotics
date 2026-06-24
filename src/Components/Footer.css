@@ -6,7 +6,7 @@ footer{
 
     display: flex;
     align-items: center;
-    padding: 64px;
+    padding: 64px clamp(8px, calc(5vw + 8px), 128px);
 }
 
 /* Contacts */
