@@ -11,7 +11,7 @@ function Home(){
                 id="nav-trigger"
             />
             <h1 className="home-title">Ateneo Robotics Club</h1>
-            <Button text="Learn more->" hrefLink="#about"/>
+            <Button text="Learn more →" hrefLink="#about"/>
         </section>
     )
 }
