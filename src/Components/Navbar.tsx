@@ -50,8 +50,8 @@ function Navbar ({home, about, activities, objectives, isAnimated} : nav_links) 
         <nav className="navbar" id="navbar">
             {/* Home Link */}
             <a href={home} className="navbar-home">
-                <img className="navbar-logo" src="/comwiz-svg.svg" alt="Computer Wizards Logo"/>
-                <h4>Computer Wizards</h4>
+                <img className="navbar-logo" src="/addu-shs-robotics.svg" alt="Computer Wizards Logo"/>
+                <h4>Ateneo Robotics Club</h4>
             </a>    
             
             {/* SideBar Toggle for Mobile */}

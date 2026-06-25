@@ -7,44 +7,44 @@ function Footer(){
     return(
         <footer>
             <a href="#home" className="footer-brand">
-                <img className="footer-logo" src="/comwiz-svg.svg" alt="Computer Wizards Logo"/>
-                <h3>Computer Wizards</h3>
+                <img className="footer-logo" src="/addu-shs-robotics.svg" alt="Ateneo Robotics Club Logo"/>
+                <h3>Ateneo Robotics Club</h3>
             </a>
             
             <div className='contacts'>
                 <h3>Contact Us!</h3>
                 <div className='links'>
                     <a 
-                        href="https://www.facebook.com/AdduCWC/"
+                        href="https://www.facebook.com/profile.php?id=61552247483076"
                         className='contact_link'
                         target="_blank">
                         <FacebookLogo
                             logoWidth={32}
                             logoHeight={32}>
                         </FacebookLogo>
-                        <p>Addu SHS-Computer Wizards Club</p>
+                        <p>Ateneo Robotics Club </p>
                     </a>
 
                     <a 
-                        href="https://www.instagram.com/comwiz.addushs/" 
+                        href="https://www.instagram.com/robotics.addushs/" 
                         target="_blank"
                         className='contact_link'>
                         <InstaLogo
                             logoWidth={32}
                             logoHeight={32}>
                         </InstaLogo>
-                        <p>comwiz.addushs</p>
+                        <p>robotics.addushs</p>
                     </a>
 
                     <a 
-                        href="mailto:shs.computerwizards@addu.edu.ph"
+                        href="mailto:shs.roboticsclub@addu.edu.ph"
                         target="_blank"
                         className='contact_link'>
                         <EmailLogo
                             logoWidth={32}
                             logoHeight={32}>
                         </EmailLogo>
-                        <p>shs.computerwizards@addu.edu.ph</p>
+                        <p>shs.roboticsclub@addu.edu.ph</p>
                     </a>
                 </div>
             </div>

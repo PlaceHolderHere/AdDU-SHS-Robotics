@@ -8,8 +8,8 @@
 }
 
 .objectiveCards{
-    display: flex;
-    flex: 1 1 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     
     align-items: stretch;
     justify-content: center;
@@ -23,8 +23,8 @@
     margin-top: 32px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     .objectiveCards{
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
